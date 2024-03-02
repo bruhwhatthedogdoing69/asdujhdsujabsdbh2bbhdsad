@@ -249,14 +249,24 @@ newcmd("unban",{"player"},function(args)
     end
 end)
 
+newcmd("9jn",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+        game.Players:Chat("char "..v.Name.." 000000000000000000000000000022195028")  
+        task.wait(.23) 
+        game.Players:Chat("tp "..v.Name.." me")  
+end
+end)
+
 newcmd("wlcmds",{},function()
-    game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTHIS SCRIPT WAS MADE BY YCXO (CXO / 3CXOS)\nPREFIX IS -\n________________________________________\n\nCOMMANDS:\nwlcmds2 - shows the second page of cmds\nlock / unlock *player* - softlocks a player\nstop *player* - anchors a player in place\nbend / bend2 *player*\nfur / furry *player* - turns the player into a furry\nangrybird *player* - turns player into an angrybird\nsuperman *player* - turns the player into superman\nbatman *player* - turns player into batman\nnerd *player* - 🤓\nhorse / unicorn *player* - turns the player into a horse or unicorn\npotato *player* - turns the player into a potato\nbird *player* - turns the player into a bird\ncube *player* - turns the player into a cube\ncxo / rachel / isley / aria *player* - chars the player\nchimney *player* - teleports a player to the chimney\nfixbp - fixes the baseplate\nmovebox - moves the obby box")
+    game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTHIS SCRIPT WAS MADE BY YCXO (CXO / 3CXOS)\nPREFIX IS -\n________________________________________\n\nCOMMANDS:\nl / unlock *player* - softlocks a player\nstop *player* - anchors a player in place\nbend / bend2 *player*\nfur / furry *player* - turns the player into a furry\nangrybird *player* - turns player into an angrybird\nsuperman *player* - turns the player into superman\nbatman *player* - turns player into batman\nnerd *player* - 🤓\nhorse / unicorn *player* - turns the player into a horse or unicorn\npotato *player* - turns the player into a potato\nbird *player* - turns the player into a bird\ncube *player* - turns the player into a cube\ncxo / rachel / isley / aria *player* - chars the player\nchimney *player* - teleports a player to the chimney\nfixbp - fixes the baseplate\nmovebox - moves the obby box")
     game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwlcrash - !!THIS WILL SHUT DOWN THE SERVER!!\ndcrash - dogcrashes the server !!THIS WILL SHUT THE SERVER DOWN!!\npcrash - persons crashes the server !!THIS WILL SHUT THE SERVER DOWN!!\nvgcrash - uses the vampire vanquisher to close the server !!THIS WILL SHUT THE SERVER DOWN!!\ntools *player* - gives a bunch of tools\npb *player* - gives the player a paintbucket\nbtools *player* - gives player btools\nkick *player* - kicks a player from the server\nban *player* - bans a player from the server\nregen - regens the admin pads\ntrapspawn - traps the obby box (spawnpoint)\ncl / cls - clears the logs\ncat *player* - turns player into a cat (if you see aria use this command on her)\nvending *player* turns player into a vending machine\nfridge *player* - turns player into a fridge")
     game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmovespawns - moves the spawnpoints\nfixregen - fixes the regen pad if it is located\ntemi *player* - encages the player\ngban *player* - gearbans the player\nwl / unwl *player* - allows you to whitelist / unwhitelist players\nmbc *player* - breaks a mobile players camera\ndrc - disables the right click for everyone\ngames *player* - gives a player games\nage *player* - fetches the age in days of a players roblox account\nheaven / darkness\ndie *player* - rest  in peace\nlag / dlag *player* - attempts to lag the players game\nclone *player* - attaches the player to a clone of themself")
 end)
 
 newcmd("wlcmds2",{},function()
-    game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTHIS SCRIPT WAS MADE BY YCXO (CXO / 3CXOS)\nPREFIX IS -\n________________________________________\n\nCOMMANDS:\nsit *player* - forces a player to sit down\ntech / banana / dizzy / dekryptionite / clyde / ray / slender / martin *player* - chars the player\nblack - paints the map black\nwhite - paints the map white\nred - paints the map red\n blue - paints the map blue\nlightblue - paints the map light blue\npink - paints the map pink\nlightpink - paints the map light pink\npurple - paints the map purple\nviolet - paints the map violet\nyellow - paints the map yellow\ngreen - paints the map green\ngray / grey - paints the map grey / gray\nrgb - turns the map red green blue repeatedly\nkick2 - same as kick but doesnt respawn or blind\nrbackwall - removes the back wall\nflipplate - flips the plate\nreport *player* - reports the player for spamming\ngpc *player* - gamepass checks player")
+    game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTHIS SCRIPT WAS MADE BY YCXO (CXO / 3CXOS)\nPREFIX IS -\n________________________________________\n\nCOMMANDS:\nsit *player* - forces a player to sit down\ntech / banana / dizzy / dekryptionite / clyde / ray / slender / martin / 9jn *player* - chars the player\nblack - paints the map black\nwhite - paints the map white\nred - paints the map red\nblue - paints the map blue\nlightblue - paints the map light blue\npink - paints the map pink\nlightpink - paints the map light pink\npurple - paints the map purple\nviolet - paints the map violet\nyellow - paints the map yellow\ngreen - paints the map green\ngray / grey - paints the map grey / gray\nrgb - turns the map red green blue repeatedly\nkick2 - same as kick but doesnt respawn or blind\nrbackwall - removes the back wall\nflipplate - flips the plate\ngpc *player* - gamepass checks player")
+	game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfp - fixes the paint\n")
 end)
 
 newcmd("spiders",{},function()
@@ -6392,36 +6402,60 @@ end
 newcmd("gamepasscheck",{"player"},function(args)
 	for i,v in pairs(GetPlayers(args[1])) do
 		local has = checkGamepass(v,66254)
-		game.Players:Chat("h \n\n\n\n\n\n\n\n"..v.Name..":")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n"..v.Name..":")
 		if has == "200" then
-		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nPerm admin: True")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n[NBC] Perm admin: True")
 	else
-		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nPerm admin: False")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n[NBC] Perm admin: False")
 	end
 		local hass = checkGamepass(v,35748)
 		if hass == "200" then
-		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\nPersons admin: True")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n[NBC] Persons admin: True")
 	else
-		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\nPersons admin: False")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n[NBC] Persons admin: False")
 		end
+		local hasss = checkGamepass(v,64354)
+		if hasss == "200" then
+			game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[BC] Perm admin: True")
+		else
+			game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[BC] Perm admin: False")
+		end
+		local hassss = checkGamepass(v,37127)
+		if hassss == "200" then
+			game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[BC] Persons admin: True")
+		else
+			game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[BC] Persons admin: False")
+			end
 	end
 end)
 
 newcmd("gpc",{"player"},function(args)
 	for i,v in pairs(GetPlayers(args[1])) do
 		local has = checkGamepass(v,66254)
-		game.Players:Chat("h \n\n\n\n\n\n\n\n"..v.Name..":")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n"..v.Name..":")
 		if has == "200" then
-		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nPerm admin: True")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n[NBC] Perm admin: True")
 	else
-		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nPerm admin: False")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n[NBC] Perm admin: False")
 	end
 		local hass = checkGamepass(v,35748)
 		if hass == "200" then
-		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\nPersons admin: True")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n[NBC] Persons admin: True")
 	else
-		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\nPersons admin: False")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n[NBC] Persons admin: False")
 		end
+		local hasss = checkGamepass(v,64354)
+		if hasss == "200" then
+			game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[BC] Perm admin: True")
+		else
+			game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[BC] Perm admin: False")
+		end
+		local hassss = checkGamepass(v,37127)
+		if hassss == "200" then
+			game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[BC] Persons admin: True")
+		else
+			game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[BC] Persons admin: False")
+			end
 	end
 end)
 
@@ -6452,7 +6486,6 @@ newcmd("gpcheck",{"player"},function(args)
 		else
 			game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[BC] Persons admin: False")
 			end
-		end
 	end
 end)
 
@@ -7004,7 +7037,6 @@ end
 else
 		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[BC] Persons admin: False")
 end
-		end
 	end)
 end)
 
@@ -8005,14 +8037,12 @@ end
 end)until not Loops.ark
 end)
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-68.9245224, 12.0999975, 11.9516468, 0.0110014183, -6.44549019e-08, -0.999939501, 6.79588652e-09, 1, -6.43840323e-08, 0.999939501, -6.08715967e-09, 0.0110014183)--Cords inside brackets
-
 newcmd("rocket",{},function()
 Loops.ark = false
 end)
 
 newcmd("credits",{},function()
-    game.Players:Chat("h \n\n\n\n\n\n\nmade by 3cxos\nsocials: \n[guns.lol/cxo]")
+    game.Players:Chat("h \n\n\n\n\n\n\nmade by 3cxos\nsocials:\n[guns.lol/cxo]")
 end)
 
 local function PlayerAdded(Player)
